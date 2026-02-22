@@ -332,7 +332,7 @@ const AboutSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
-                className="text-xs font-mono tracking-widest uppercase mb-4 block text-[hsl(var(--light-primary-dark))]"
+                className="text-xl font-mono tracking-widest uppercase mb-4 block text-[hsl(var(--light-primary-dark))]"
               >
                 About Florix
               </motion.span>
@@ -403,6 +403,16 @@ const AboutSection = () => {
             <motion.div className="max-w-4xl mx-auto" {...reveal()}>
               <GlassCard accentLine>
                 <div className="relative z-10">
+                  {/* Decorative circles */}
+                  <div className="absolute top-12 right-20 w-24 h-24 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute bottom-32 left-10 w-16 h-16 border border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute top-1/2 right-8 w-32 h-32 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <h3 className="font-display font-bold gradient-text mb-6" style={{
+                    fontSize: "clamp(24px, 3vw, 36px)",
+                    lineHeight: 1.2,
+                  }}>
+                    Transforming Urban Spaces into Energy-Positive Ecosystems
+                  </h3>
                   <StaggerParagraph
                     text="At Florix Energy, we envision a world where urban infrastructure does more than serve it powers, sustains, and transforms cities into energy-positive ecosystems. Roads, walkways, buildings, and public spaces are no longer passive - they are active contributors to clean energy generation, carbon reduction, and a greener future."
                     className="font-body mb-8 text-[hsl(var(--light-muted))]"
@@ -435,6 +445,16 @@ const AboutSection = () => {
                 {/* Left: Text */}
                 <GlassCard accentLine>
                   <div className="relative z-10">
+                    {/* Decorative circles */}
+                    <div className="absolute top-8 right-16 w-20 h-20 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                    <div className="absolute bottom-20 left-8 w-28 h-28 border border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                    <div className="absolute top-1/3 right-6 w-14 h-14 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                    <h3 className="font-display font-bold gradient-text mb-6" style={{
+                      fontSize: "clamp(24px, 3vw, 36px)",
+                      lineHeight: 1.2,
+                    }}>
+                      Supporting India's Sustainability Goals
+                    </h3>
                     <StaggerParagraph
                       text="Florix Energy is committed to helping India achieve its ambitious Net-Zero Carbon Emissions targets, contributing directly to initiatives such as Vrikshit Bharat, which promotes large-scale afforestation, urban greening, and ecological restoration. Our efforts also align with programs like Smart Cities Mission, National Electric Mobility Mission, and Urban Renewable Energy Schemes, ensuring that cities can leverage clean energy while improving the quality of life for citizens. By supporting Atal Mission for Rejuvenation and Urban Transformation (AMRUT) and other green infrastructure initiatives, we drive measurable environmental impact and strengthen the foundation for sustainable urban development."
                       className="font-body text-[hsl(var(--light-muted))]"
@@ -531,6 +551,10 @@ const AboutSection = () => {
                 }} />
 
                 <div className="relative z-10">
+                  {/* Decorative circles */}
+                  <div className="absolute top-16 right-24 w-28 h-28 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute bottom-40 left-12 w-20 h-20 border border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute top-2/3 right-12 w-24 h-24 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
                   {/* Headline */}
                   <div className="text-center" style={{ marginBottom: "40px" }}>
                     <p
@@ -589,6 +613,16 @@ const AboutSection = () => {
             >
               <GlassCard accentLine>
                 <div className="relative z-10">
+                  {/* Decorative circles */}
+                  <div className="absolute top-10 right-14 w-18 h-18 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute bottom-24 left-6 w-24 h-24 border border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute top-1/2 right-10 w-20 h-20 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <h3 className="font-display font-bold gradient-text mb-6" style={{
+                    fontSize: "clamp(24px, 3vw, 36px)",
+                    lineHeight: 1.2,
+                  }}>
+                    Building Smart, Resilient Urban Ecosystems
+                  </h3>
                   <StaggerParagraph
                     text="At Florix Energy, we believe that sustainability is not just a goal-it's a movement. By integrating renewable energy and green infrastructure principles into everyday city planning, we foster responsible energy generation, environmental stewardship, and community empowerment. Our work enables cities to achieve net-zero goals, actively participate in Vrikshit Bharat and other environmental initiatives, and transition towards energy independence and ecological balance."
                     className="font-body text-[hsl(var(--light-muted))] mb-10"
@@ -622,6 +656,16 @@ const AboutSection = () => {
                 }}
               >
                 <div className="relative z-10">
+                  {/* Decorative circles */}
+                  <div className="absolute top-12 right-20 w-26 h-26 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute bottom-16 left-8 w-16 h-16 border border-[hsl(155_100%_50%)] rounded-full opacity-80 pointer-events-none" />
+                  <div className="absolute top-2/5 right-6 w-32 h-32 border-2 border-[hsl(155_100%_50%)] rounded-full opacity-80     pointer-events-none" />
+                  <h3 className="font-display font-bold gradient-text mb-6" style={{
+                    fontSize: "clamp(24px, 3vw, 36px)",
+                    lineHeight: 1.2,
+                  }}>
+                    Pioneers of Sustainable Urban Transformation
+                  </h3>
                   <StaggerParagraph
                     text="Florix Energy is more than a technology company. We are pioneers of sustainable urban transformation, enabling cities to grow intelligently, responsibly, and sustainably. Our work reinforces the belief that smart, renewable, and decentralized urban infrastructure is key to a greener India and a sustainable planet."
                     className="font-body text-[hsl(var(--light-fg))] mb-10"
